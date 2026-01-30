@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Starting Soon</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+    video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover; /* <-- llena pantalla, recorta */
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop playsinline preload="auto">
+    <source src="https://www.dropbox.com/scl/fi/hgyn8ui8l74b26oowiaiy/Yellow-Modern-Style-Game-Twitch-Banner.mp4?rlkey=582y5lp5y3is5mlul3o0dyice&st=8zjmaukx&raw=1" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
+
